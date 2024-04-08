@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog V1</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+</head>
+<body>
+
+  <div id="agrupar">
+  <header id="cabecera" align="center">
+      <h1 class="font-effect-shadow-multiple">MI PRIMER BLOG</h1>
+    </header>
+    <nav class="menudes">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#cv">CVV</a></li>
+        <li class="dropdown">
+          <a  class="dropbtn">Mas...</a>
+          <div class="dropdown-content">
+            <a href="#ito">Escuela</a>
+            <a href="#fotos">Fotos</a>
+            <a href="#videos">Videos</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  <section id="seccion">
+      <article id="cv"><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>MI CVV</h1>
+                  <h5>CVV de Cristian Pacheco</h5>
+              </hgroup>
+              <time datetime="2024-03-04" pubdate>
+                    publicado 04-03-2024
+              </time>
+        </header>
+        <br>
+        <h4>Datos personales</h4>
+        <p>
+          Nombre y apellidos: Cristian Pacheco<br>
+          Direccion: calle 20, Rio Blanco, ver<br>
+          Num ss: 031990387
+        </p>
+        <br>
+        <h4>Educaci&oacute;n y formaci&oacute;n</h4>
+        <p>
+        <strong>2018-2021:</strong> Tecnico en Programacion<em> Cetis 146</em> (R&iacute;o Blanco).<br>
+        <strong>2021-actual:</strong> Estudiante Ing. Sistemas computacionales <em>Instituto tecnologico de Orizaba</em>
+        </p>
+        <br>
+        <h4>Capacidades y aptitudes personales</h4>
+        <h4>Idiomas</h4>
+        <p>
+        <strong>Inglés:</strong> Nivel Bajo. Título nivel C1, por la <em> Escuela Oficial de Idiomas de ITOrizaba</em>.<br>
+        </p>
+
+          <figure align="center">
+            <video width="290" height="240" controls muted autoplay>
+              <source src="img/mivideo.mp4" type="video/mp4">
+          </video> 
+                <figcaption>
+                  <p>Video de presentaci&oacute;n</p>
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>comentarios (0)</p>
+              <a href="#agrupar">Inicio</a>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article id="ito"><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Direcci&oacute;n de la instituci&oacute;n</h1>
+                <h4>Tecnol&oacute;gico de Orizaba</h4>
+            </hgroup>
+            <time datetime="2024-03-04" pubdate>
+                publicado 04-03-2024
+            </time>
+         </header>
+         <figure>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4490.157967729907!2d-97.09796638807696!3d18.85343669913277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502aeb2d35fed%3A0xba5f3840b0862949!2sTecNM%20-%20Campus%20Orizaba!5e0!3m2!1ses-419!2smx!4v1709611569102!5m2!1ses-419!2smx" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <figcaption>
+                   Ubicacion del plantel
+               </figcaption>
+         </figure>
+         <footer>
+          <p>comentarios (0)</p>
+          <a href="#agrupar">Inicio</a>
+      </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+    
+    <article id="fotos">
+      <header>
+        <h1>Fotos</h1>
+        <time datetime="2024-03-04" pubdate>
+          Fecha de publicaci&oacute;n 04-03-2024
+      </time>
+      </header>
+      <figure align="center">
+        <img src="img/yo 1.jpg" id="yo1" alt="soy yo">                                  
+        <img src="img/yo 2.jpg" id="yo2" alt="soy yo">
+        <br>
+        <img src="img/yo 3.jpg" id="yo3" alt="soy yo">
+        <figcaption>
+          algunas fotos
+        </figcaption>
+      </figure>
+      <footer>
+        <p>comentarios (0)</p>
+        <a href="#agrupar">Inicio</a>
+    </footer>
+    </article>
+
+    <article id="videos">
+      <header>
+        <h1>Videos</h1>
+        <time datetime="2024-03-04" pubdate>
+          Fecha de publicaci&oacute;n 04-03-2024
+      </time>
+      </header>
+        <figure align="center">
+          <video width="350" height="260" controls muted autoplay>
+            <source src="img/yo.mp4" type="video/mp4">
+        </video> 
+        <figcaption>
+            Uno de mis pasatiempos
+        </figcaption>
+        </figure>
+        <figure align="center">
+          <video width="350" height="260" controls muted autoplay alt="mi video favorito">
+            <source src="img/El mejor video del mundo.mp4" type="video/mp4">
+        </video> 
+        <figcaption>
+            mi v&iacute;deo favorito
+        </figcaption>
+        </figure>
+        <footer>
+          <p>comentarios (0)</p>
+          <a href="#agrupar">Inicio</a>
+      </footer>
+    </article>
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna" align="center"> <!-- aside -->
+      <blockquote>SIGUEME EN MIS REDES</blockquote>
+      <a href="https://www.facebook.com/cristangabriel.pachecor?comment_id=Y29tbWVudDozNTY2MzM1MDI2OTE2MjM1XzQ0NTU0MzA0NDQ3MzgzNQ%3D%3D">
+       <figure>
+         <img src="img/facebook.png" id="fc" alt="facebook" >
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/cristian_pacheco.r/?igsh=MWFkYXFhbzI3YzlhNA%3D%3D">
+        <figure>
+          <img src="img/ig.png" id="ig" alt="instagram">
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+</body>
+</html>
